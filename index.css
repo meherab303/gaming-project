@@ -57,13 +57,29 @@ height: 40px;
 }
 nav > ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 nav li{
     list-style: none;
     margin-right: 32px;
+    color: #3C354F;
+font-size: 1.2rem;
+font-weight: 500;
 }
 nav li a{
     text-decoration: none;
+}
+.nav-youtube button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+nav img{
+    width: 40px;
+    height: 30px;
 }
 /* nav-section-end */
 
@@ -75,6 +91,7 @@ nav li a{
   
 }
 .banner-details{
+
     fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 }
 .play{
@@ -170,6 +187,26 @@ font-weight: 400;
 
    
 
+}
+.card .play-card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.watch-now{
+    margin-top: 1px;
+    margin-left: -8px;
+font-size: 1.5rem;
+font-weight: 600;
+background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.play-card{
+    position: relative;
+    top:-260px;
+    right: -130px;
 }
 .card{
 
@@ -277,7 +314,7 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 border: 3px solid #FF42A5;
 }
-button:hover{
+.button-img button:hover{
     
     border: 2px solid blue;
 }
