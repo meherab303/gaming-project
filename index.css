@@ -91,8 +91,15 @@ nav img{
   
 }
 .banner-details{
+    position:relative;
 
     fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+.banner-bg-img{
+    position: absolute;
+    top: -118px;
+    right:0px;
+
 }
 .play{
     color: #0B0223;
@@ -360,4 +367,15 @@ font-weight: 500;
 .footer-end{
     text-align: center;
     font-weight: 500;
+}
+/* footer end */
+
+/* responsive for mobile device */
+@media screen and(max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+   
+
+    
 }
