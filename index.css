@@ -182,3 +182,45 @@ margin-bottom: 24px;
 font-size: 1.2rem;
 font-weight: 500;
 }
+/* online section end */
+
+/* download section starts  */
+.download-descrip h1{
+    color: #0B0223;
+font-size: 3rem;
+font-weight: 700;
+
+}
+.instant{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.download-details{
+    color: #534C64;
+font-size: 1.1rem;
+font-weight: 400;
+}
+.download-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 180px;
+}
+.download-img img{
+    width:600px;
+    height: 635px; 
+ margin-left: 100px;
+}
+.download-card img{
+    width: 200px;
+    height: 215px;
+    position: relative;
+    top: -180px;
+    left: -90px;
+    border-radius: 8px;
+border: 2px solid #FFF;
+background:lightgray;
+}
+/* download section end */
