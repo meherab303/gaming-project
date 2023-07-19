@@ -11,7 +11,29 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 
 }
+/* shared styles */
+.goat{
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    }
+    .btn-1{
+        border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 40px;
+}
 
+/* shared styles end */
 header{
     padding: 40px 100px;
     background: #FFF;
@@ -50,6 +72,7 @@ nav li a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+  
 }
 .play{
     color: #0B0223;
@@ -57,34 +80,105 @@ font-size: 3rem;
 font-weight: 600;
 text-transform: uppercase;
 }
-.goat{
-font-size: 6rem;
-font-weight: 800;
-text-transform: uppercase;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-margin-top: 0px;
-margin-bottom: 24px;
-}
+
 .click{
     color: #534C64;
 font-size: 1.25rem;
 font-weight: 500;
 text-transform: lowercase;
 }
-.btn-1{
-    border-radius: 48px;
-background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-color: #FFF;
-border: none;
-font-size: 1.25rem;
-font-weight: 600;
-padding: 20px 40px;
 
-}
+
 .btn-2{
 background: #4EC5F7;
 margin-left:10px;
+}
+/* banner section end */
+
+/* gamer section starts */
+.gamer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 50px 100px;
+}
+.gamer{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: right;
+    text-transform: none;
+}
+.gamer-descrip{
+    color: #534C64;
+text-align: right;
+font-size: 1.2rem;
+font-weight: 400;
+}
+ 
+.btn-container{
+ text-align: right;
+    
+}
+
+.gamer-end-descrip{
+    text-align:right;
+}
+.purpose{
+    color: #534C64;
+font-size: 1.5rem;
+font-weight: 500;
+}
+.unleash{
+    color: #534C64;
+font-size: 2rem;
+font-weight: 700;
+}
+/* gamer section end */
+
+/* online section starts */
+.online-descrip{
+   text-align: center;
+   margin-top: 100px;
+  
+}
+.online-descrip h1{
+    color: #0B0223;
+font-size: 3rem;
+font-weight: 700;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.online-descrip p{
+    color: #534C64;
+font-size: 1.2rem;
+font-weight: 400;
+}
+.online-card{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   gap: 24px;
+   padding: 40px 100px;
+
+   
+
+}
+.card{
+
+    border-radius: 16px;
+margin-bottom: 24px;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+}
+.card-descrip{
+    color: #534C64;
+font-size: 1.2rem;
+font-weight: 500;
 }
