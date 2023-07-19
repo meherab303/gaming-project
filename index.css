@@ -371,10 +371,48 @@ font-weight: 500;
 /* footer end */
 
 /* responsive for mobile device */
-@media screen and(max-width:576px) {
+@media screen and (max-width:576px) {
     nav{
         flex-direction: column;
     }
+    nav ul{
+        flex-direction: column;
+    }
+.banner,
+.gamer-container,
+.download-container,
+.button-details,
+.part-1,
+.part-2,.footer-descrip,.footer-policy,.footer-icon{
+    flex-direction: column;
+}
+.banner-img img{
+    width: 100%;
+}
+.gamer-img img{
+    width: 100%;
+}
+.online-card{
+    grid-template-columns: 1fr;
+    padding: 60px;
+}
+.online-card p{
+   width: 100%;
+}
+.download-img img{
+    width: 400px;
+    padding-right:60px;
+    
+}
+.download-card img{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    
+    
+
+}
+
    
 
     
