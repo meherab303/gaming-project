@@ -393,7 +393,7 @@ font-weight: 500;
     width: 100%;
 }
 .online-card{
-    grid-template-columns: 1fr;
+    grid-template-columns:1fr;
     padding: 60px;
 }
 .online-card p{
@@ -414,6 +414,39 @@ font-weight: 500;
 }
 
    
+
+    
+}
+/* for tablet */
+@media screen and (min-width:577px) and (max-width:992px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+.banner,
+.gamer-container,
+.download-container,
+.button-details,
+.part-1,
+.part-2,.footer-descrip,.footer-policy,.footer-icon{
+    flex-direction: column;
+}
+.banner-img img{
+    width: 100%;
+}
+.gamer-img img{
+    width: 100%;
+}
+.online-card{
+    grid-template-columns:repeat(2,1fr);
+    padding: 60px;
+}
+.online-card p{
+   width: 100%;
+}
+
 
     
 }
